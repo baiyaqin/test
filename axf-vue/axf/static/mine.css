@@ -1,0 +1,204 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 0.14px;
+  background: #EFEFEF;
+  font-family: "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif, 'Microsoft Yahei';
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  border: none;
+}
+.clearFixed:after {
+  content: ".";
+  clear: both;
+  display: block;
+  visibility: hidden;
+  height: 0;
+}
+html {
+  font-size: 100px;
+}
+.wode_mian {
+  width: 100%;
+}
+.wode_dingwei {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+.wode_header {
+  width: 100%;
+  height: 1.0rem;
+  padding: 0 0 0 0.16rem;
+  background: #ffd600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wode_header .wode_header_a {
+  display: flex;
+}
+.wode_header .wode_header_a img {
+  margin: auto;
+  width: 0.7rem;
+  height: 0.7rem;
+}
+.wode_header .wode_header_div {
+  padding: 0.2rem 0.2rem 0 0.16rem;
+  height: 1.0rem;
+}
+.wode_header .wode_header_div p {
+  color: #fff;
+  font-size: 0.18rem;
+}
+.wode_header .wode_header_div p:last-child {
+  margin-top: 0.06rem;
+  width: 1.3rem;
+  height: 0.4rem;
+  text-align: center;
+  line-height: 0.30rem;
+  color: #e64f1a;
+  font-size: 0.14rem;
+  font-weight: 400;
+  background: url(../src/assets/touxiang5.png) no-repeat;
+  background-size: 1.0rem 0.28rem;
+}
+.wode_header .wode_header_a1 {
+  margin: 0 0.12rem 0 0;
+  width: 0.22rem;
+  height: 0.35rem;
+  background: url(../src/assets/louxiang2.png) no-repeat;
+  background-size: 0.16rem 0.26rem;
+}
+.wode_header2 {
+  width: 100%;
+  height: 0.4rem;
+  background: #f3c800;
+  display: flex;
+  align-items: center;
+}
+.wode_header2 li {
+  width: 50%;
+  height: 0.30rem;
+  text-align: center;
+  line-height: 0.30rem;
+  color: #fff;
+  padding-left: 0.1rem;
+  font-size: 0.16rem;
+  background: url(../src/assets/touxiang3.png) no-repeat 0.2rem center;
+  background-size: 0.24rem 0.24rem;
+}
+.wode_header2 li:last-child {
+  border-left: 1px solid #fff;
+  background: url(../src/assets/touxiang4.png) no-repeat 0.2rem center;
+  background-size: 0.24rem 0.24rem;
+}
+.wode_main1 {
+  margin-top: 1.53rem;
+  width: 100%;
+  height: 0.4rem;
+  background: #fff;
+  display: flex;
+  padding: 0 0 0 0.2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.wode_main1 p {
+  font-size: 0.16rem;
+}
+.wode_main1 a {
+  width: 50%;
+  color: #999;
+  text-align: center;
+  font-size: 0.16rem;
+  background: url(../src/assets/main1_jiantou.png) no-repeat right center;
+  background-size: 0.26rem 0.16rem;
+}
+.wode_main2 {
+  width: 100%;
+  height: 0.91rem;
+  background: #fff;
+  display: flex;
+  padding-top: 0.16rem;
+  border-top: 1px solid #EFEFEF;
+}
+.wode_main2 .wode_main2_1 {
+  width: 25%;
+  text-align: center;
+  background: url(../src/assets/main2_1.png) no-repeat center top;
+  background-size: 0.3rem 0.3rem;
+  padding-top: 0.4rem;
+  color: #888888;
+  font-size: 0.16rem;
+}
+.wode_main2 .wode_main2_2 {
+  background: url(../src/assets/main2_1.png) no-repeat center top;
+  background-size: 0.3rem 0.3rem;
+}
+.wode_main2 .wode_main2_3 {
+  background: url(../src/assets/main2_1.png) no-repeat center top;
+  background-size: 0.3rem 0.3rem;
+}
+.wode_main2 .wode_main2_4 {
+  background: url(../src/assets/main2_1.png) no-repeat center top;
+  background-size: 0.3rem 0.3rem;
+}
+.wode_main2_ul2 {
+  margin-top: 0.12rem;
+  padding-top: 0.32rem;
+  height: 1.27rem;
+  border: none;
+  border-bottom: 1px solid #EFEFEF;
+}
+.wode_main2_ul2 a {
+  width: 25%;
+}
+.wode_main2_ul2 a .wode_main2_1 {
+  width: 100%;
+  background: url(../src/assets/main2_1.png) no-repeat center top;
+  background-size: 0.3rem 0.3rem;
+}
+.wode_main2_ul2 a .wode_main2_2 {
+  background: url(../src/assets/main2_1.png) no-repeat center top;
+  background-size: 0.3rem 0.3rem;
+}
+.wode_main2_ul2 a .wode_main2_3 {
+  background: url(../src/assets/main2_1.png) no-repeat center top;
+  background-size: 0.3rem 0.3rem;
+}
+.wode_main2_ul2 a .wode_main2_4 {
+  background: url(../src/assets/main2_1.png) no-repeat center top;
+  background-size: 0.3rem 0.3rem;
+}
+.wode_main2_ul3 {
+  padding-top: 0.32rem;
+  height: 1.27rem;
+  border: none;
+}
+.wode_main2_ul3 .wode_main2_1 {
+  background: url(../src/assets/main2_1.png) no-repeat center top;
+  background-size: 0.3rem 0.3rem;
+}
+.wode_main5 {
+  width: 100%;
+  height: 0.4rem;
+  background: #fff;
+  margin: 0.4rem 0 0.8rem 0;
+  display: flex;
+}
+.wode_main5 a {
+  font-size: 0.16rem;
+  color: #333333;
+  margin: auto;
+}
+
